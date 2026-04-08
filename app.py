@@ -31,7 +31,7 @@ st.set_page_config(page_title="EduSense AI", layout="wide", initial_sidebar_stat
 st.title("🎓 EduSense AI - Student Performance Predictor")
 st.markdown("Predict student performance and get personalized recommendations using machine learning")
 
-DEFAULT_DATASET_PATH = Path(r"C:\Users\paras\OneDrive\Desktop\EduSense AI\student_performance.csv")
+DEFAULT_DATASET_PATH = Path(__file__).parent / "student_performance.csv"
 DEFAULT_SAMPLE_SIZE = 20000
 RANDOM_STATE = 42
 

@@ -13,7 +13,7 @@ from typing import Dict, List, Optional, Tuple
 import numpy as np
 import pandas as pd
 
-DEFAULT_DATASET_PATH = Path(r"C:\Users\paras\Downloads\student_performance.csv")
+DEFAULT_DATASET_PATH = Path(__file__).parent / "student_performance.csv"
 DEFAULT_SAMPLE_SIZE = 20000
 RANDOM_STATE = 42
 
